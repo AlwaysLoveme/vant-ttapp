@@ -119,7 +119,7 @@
       "tag": "dist/tag/index",
       "toast": "dist/toast/index",
       "transition": "dist/transition/index",
-      "uploader": "dist/uploader/index",
+      "uploader": "dist/uploader/index"
     }
   }
 }
