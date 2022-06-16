@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Cell 单元格",
+  "usingComponents": {
+    "van-cell-demo": "../../dist/cell/demo/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Image 图片",
+  "usingComponents": {
+    "van-image-demo": "../../dist/image/demo/index"
+  }
+}

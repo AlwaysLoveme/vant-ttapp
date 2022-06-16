@@ -1,0 +1,5 @@
+<sjs src="./index.sjs" module="computed" />
+
+<view tt:if="{{ inited }}" class="van-transition custom-class {{ classes }}" style="{{ computed.rootStyle({ currentDuration, display, customStyle }) }}" bind:transitionend="onTransitionEnd">
+  <slot />
+</view>

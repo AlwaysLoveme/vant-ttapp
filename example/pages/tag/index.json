@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Tag 标记",
+  "usingComponents": {
+    "van-tag-demo": "../../dist/tag/demo/index"
+  }
+}

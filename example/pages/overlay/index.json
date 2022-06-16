@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Overlay 遮罩层",
+  "usingComponents": {
+    "van-overlay-demo": "../../dist/overlay/demo/index"
+  }
+}

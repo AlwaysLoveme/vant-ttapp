@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Sticky 粘性布局",
+  "usingComponents": {
+    "van-sticky-demo": "../../dist/sticky/demo/index"
+  }
+}

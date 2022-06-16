@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Empty 空状态",
+  "usingComponents": {
+    "van-empty-demo": "../../dist/empty/demo/index"
+  }
+}

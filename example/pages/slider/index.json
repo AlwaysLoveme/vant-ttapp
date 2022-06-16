@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Slider 滑块",
+  "usingComponents": {
+    "van-slider-demo": "../../dist/slider/demo/index"
+  }
+}

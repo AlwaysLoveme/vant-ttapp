@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "CountDown 倒计时",
+  "usingComponents": {
+    "van-count-down-demo": "../../dist/count-down/demo/index"
+  }
+}

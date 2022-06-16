@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "GoodsAction 商品导航",
+  "usingComponents": {
+    "van-goods-action-demo": "../../dist/goods-action/demo/index"
+  }
+}

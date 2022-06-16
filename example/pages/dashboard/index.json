@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Vant Ttapp",
+  "usingComponents": {
+    "demo-home": "../../components/demo-home/index"
+  }
+}

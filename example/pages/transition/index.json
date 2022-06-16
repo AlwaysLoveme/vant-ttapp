@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Transition 动画",
+  "usingComponents": {
+    "van-transition-demo": "../../dist/transition/demo/index"
+  }
+}

@@ -1,0 +1,3 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+
+<view tt:if="{{ info !== null && info !== '' || dot }}" class="van-info {{ utils.bem('info', { dot }) }} custom-class" style="{{ customStyle }}">{{ dot ? '' : info }}</view>

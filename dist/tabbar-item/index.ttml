@@ -1,0 +1,15 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+
+<view class="{{ utils.bem('tabbar-item', { active }) }} custom-class" style="color: {{ active ? activeColor : inactiveColor }}" bindtap="onClick">
+  <view class="van-tabbar-item__icon">
+    <van-icon tt:if="{{ icon }}" name="{{ icon }}" class-prefix="{{ iconPrefix }}" custom-class="van-tabbar-item__icon__inner" />
+    <block tt:else>
+      <slot tt:if="{{ active }}" name="icon-active" />
+      <slot tt:else name="icon" />
+    </block>
+    <van-info dot="{{ dot }}" info="{{ info }}" custom-class="van-tabbar-item__info" />
+  </view>
+  <view class="van-tabbar-item__text">
+    <slot />
+  </view>
+</view>

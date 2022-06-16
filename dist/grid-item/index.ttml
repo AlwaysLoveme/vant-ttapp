@@ -1,0 +1,20 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+<sjs src="./index.sjs" module="computed" />
+
+<view class="custom-class {{ utils.bem('grid-item', { square }) }}" style="{{ computed.wrapperStyle({ square, gutter, columnNum, index }) }}" bindtap="onClick">
+  <view class="content-class {{ utils.bem('grid-item__content', [direction, { center, square, reverse, clickable, surround: border && gutter }]) }} {{ border ? 'van-hairline--surround' : '' }}" style="{{ computed.contentStyle({ square, gutter }) }}">
+    <block tt:if="{{ useSlot }}">
+      <slot />
+    </block>
+    <block tt:else>
+      <view class="van-grid-item__icon icon-class">
+        <van-icon tt:if="{{ icon }}" name="{{ icon }}" color="{{ iconColor }}" class-prefix="{{ iconPrefix }}" dot="{{ dot }}" info="{{ badge || info }}" size="{{ iconSize }}" />
+        <slot tt:else name="icon"></slot>
+      </view>
+      <view class="van-grid-item__text text-class">
+        <text tt:if="{{ text }}">{{ text }}</text>
+        <slot tt:else name="text"></slot>
+      </view>
+    </block>
+  </view>
+</view>

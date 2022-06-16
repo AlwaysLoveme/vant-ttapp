@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Dropdown Menu",
+  "usingComponents": {
+    "van-dropdown-menu-demo": "../../dist/dropdown-menu/demo/index"
+  }
+}

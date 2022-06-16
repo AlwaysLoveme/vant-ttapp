@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "ActionSheet 动作面板",
+  "usingComponents": {
+    "van-action-sheet-demo": "../../dist/action-sheet/demo/index"
+  }
+}

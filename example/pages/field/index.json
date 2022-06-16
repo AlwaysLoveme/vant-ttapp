@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Field 输入框",
+  "usingComponents": {
+    "van-field-demo": "../../dist/field/demo/index"
+  }
+}

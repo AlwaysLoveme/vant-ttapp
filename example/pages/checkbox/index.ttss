@@ -1,0 +1,2 @@
+@import "../../dist/checkbox/demo/index.ttss";
+@import "../../dist/checkbox/index.ttss";

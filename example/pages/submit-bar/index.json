@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "SubmitBar 提交订单栏",
+  "usingComponents": {
+    "van-submit-bar-demo": "../../dist/submit-bar/demo/index"
+  }
+}

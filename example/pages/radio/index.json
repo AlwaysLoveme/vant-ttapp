@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Radio 单选框",
+  "usingComponents": {
+    "van-radio-demo": "../../dist/radio/demo/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Stepper 步进器",
+  "usingComponents": {
+    "van-stepper-demo": "../../dist/stepper/demo/index"
+  }
+}

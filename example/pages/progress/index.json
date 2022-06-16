@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Progress 进度条",
+  "usingComponents": {
+    "van-progress-demo": "../../dist/progress/demo/index"
+  }
+}

@@ -1,0 +1,9 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+
+<view class="{{ utils.bem('sidebar-item', { selected, disabled }) }} {{ selected ? 'active-class' : '' }} {{ disabled ? 'disabled-class' : '' }} custom-class" hover-class="van-sidebar-item--hover" hover-stay-time="70" bind:tap="onClick">
+  <view class="van-sidebar-item__text">
+    <van-info tt:if="{{ badge != null || info !== null || dot }}" dot="{{ dot }}" info="{{ badge != null ? badge : info }}" />
+    <view tt:if="{{ title }}">{{ title }}</view>
+    <slot tt:else name="title" />
+  </view>
+</view>

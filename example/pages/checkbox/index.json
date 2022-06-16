@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Checkbox 复选框",
+  "usingComponents": {
+    "van-checkbox-demo": "../../dist/checkbox/demo/index"
+  }
+}

@@ -1,0 +1,20 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+<sjs src="../wxs/style.sjs" module="style" />
+
+<view class="custom-class {{ utils.bem('slider', { disabled, vertical }) }}" style="{{ wrapperStyle }}" bind:tap="onClick">
+  <view class="{{ utils.bem('slider__bar') }}" style="{{ barStyle }}; {{ style({ backgroundColor: activeColor }) }}">
+    <view tt:if="{{ range }}" class="{{ utils.bem('slider__button-wrapper-left') }}" data-index="{{ 0 }}" bind:touchstart="onTouchStart" catch:touchmove="onTouchMove" bind:touchend="onTouchEnd" bind:touchcancel="onTouchEnd">
+      <slot tt:if="{{ useButtonSlot }}" name="left-button" />
+      <view tt:else class="{{ utils.bem('slider__button') }}" />
+    </view>
+    <view tt:if="{{ range }}" class="{{ utils.bem('slider__button-wrapper-right') }}" data-index="{{ 1 }}" bind:touchstart="onTouchStart" catch:touchmove="onTouchMove" bind:touchend="onTouchEnd" bind:touchcancel="onTouchEnd">
+      <slot tt:if="{{ useButtonSlot }}" name="right-button" />
+      <view tt:else class="{{ utils.bem('slider__button') }}" />
+    </view>
+
+    <view tt:if="{{ !range }}" class="{{ utils.bem('slider__button-wrapper') }}" bind:touchstart="onTouchStart" catch:touchmove="onTouchMove" bind:touchend="onTouchEnd" bind:touchcancel="onTouchEnd">
+      <slot tt:if="{{ useButtonSlot }}" name="button" />
+      <view tt:else class="{{ utils.bem('slider__button') }}" />
+    </view>
+  </view>
+</view>

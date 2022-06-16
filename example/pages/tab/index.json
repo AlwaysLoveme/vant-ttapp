@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Tab 标签页",
+  "usingComponents": {
+    "van-tab-demo": "../../dist/tab/demo/index"
+  }
+}

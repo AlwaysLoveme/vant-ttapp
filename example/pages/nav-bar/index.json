@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "NavBar 导航栏",
+  "usingComponents": {
+    "van-nav-bar-demo": "../../dist/nav-bar/demo/index"
+  }
+}

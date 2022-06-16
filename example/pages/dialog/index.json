@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Dialog 弹出框",
+  "usingComponents": {
+    "van-dialog-demo": "../../dist/dialog/demo/index"
+  }
+}

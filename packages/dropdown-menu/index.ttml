@@ -1,0 +1,14 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+<sjs src="./index.sjs" module="computed" />
+
+<view class="van-dropdown-menu van-dropdown-menu--top-bottom custom-class">
+  <view tt:for="{{ itemListData }}" tt:key="index" data-index="{{ index }}" class="{{ utils.bem('dropdown-menu__item', { disabled: item.disabled }) }}" bind:tap="onTitleTap">
+    <view class="{{ item.titleClass }} {{ utils.bem('dropdown-menu__title', { active: item.showPopup, down: item.showPopup === (direction === 'down') }) }}" style="{{ item.showPopup ? 'color:' + activeColor : '' }}">
+      <view class="van-ellipsis">
+        {{ computed.displayTitle(item) }}
+      </view>
+    </view>
+  </view>
+
+  <slot />
+</view>

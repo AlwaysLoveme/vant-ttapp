@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Layout 布局",
+  "usingComponents": {
+    "van-col-demo": "../../dist/col/demo/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Circle 进度条",
+  "usingComponents": {
+    "van-circle-demo": "../../dist/circle/demo/index"
+  }
+}

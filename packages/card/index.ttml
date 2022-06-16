@@ -1,0 +1,45 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+
+<view class="custom-class van-card">
+  <view class="{{ utils.bem('card__header', { center: centered }) }}">
+    <view class="van-card__thumb" bind:tap="onClickThumb">
+      <image tt:if="{{ thumb }}" src="{{ thumb }}" mode="{{ thumbMode }}" lazy-load="{{ lazyLoad }}" class="van-card__img thumb-class" />
+      <slot tt:else name="thumb" />
+      <van-tag tt:if="{{ tag }}" mark type="danger" custom-class="van-card__tag">
+        {{ tag }}
+      </van-tag>
+      <slot tt:else name="tag" />
+    </view>
+
+    <view class="van-card__content {{ utils.bem('card__content', { center: centered }) }}">
+      <view>
+        <view tt:if="{{ title }}" class="van-card__title title-class">{{ title }}</view>
+        <slot tt:else name="title" />
+
+        <view tt:if="{{ desc }}" class="van-card__desc desc-class">{{ desc }}</view>
+        <slot tt:else name="desc" />
+
+        <slot name="tags" />
+      </view>
+
+      <view class="van-card__bottom">
+        <slot name="price-top" />
+        <view tt:if="{{ price || price === 0 }}" class="van-card__price price-class">
+          <text>{{ currency }}</text>
+          <text class="van-card__price-integer">{{ integerStr }}</text>
+          <text class="van-card__price-decimal">{{ decimalStr }}</text>
+        </view>
+        <slot tt:else name="price" />
+        <view tt:if="{{ originPrice || originPrice === 0 }}" class="van-card__origin-price origin-price-class">{{ currency }} {{ originPrice }}</view>
+        <slot tt:else name="origin-price" />
+        <view tt:if="{{ num }}" class="van-card__num num-class">x {{ num }}</view>
+        <slot tt:else name="num" />
+        <slot name="bottom" />
+      </view>
+    </view>
+  </view>
+
+  <view class="van-card__footer">
+    <slot name="footer" />
+  </view>
+</view>

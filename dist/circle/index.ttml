@@ -1,0 +1,9 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+
+<view class="van-circle">
+  <canvas class="van-circle__canvas" type="{{ type }}" style="width: {{ utils.addUnit(size) }};height:{{ utils.addUnit(size) }}" id="van-circle" canvas-id="van-circle"></canvas>
+  <view tt:if="{{ !text }}" class="van-circle__text">
+    <slot></slot>
+  </view>
+  <view tt:else class="van-circle__text">{{ text }}</view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Grid 宫格",
+  "usingComponents": {
+    "van-grid-demo": "../../dist/grid/demo/index"
+  }
+}

@@ -1,0 +1,2 @@
+@import "../../dist/swipe-cell/index.ttss";
+@import "../../dist/dialog/index.ttss";

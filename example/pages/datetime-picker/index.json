@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "DatetimePicker 时间选择",
+  "usingComponents": {
+    "van-datetime-picker-demo": "../../dist/datetime-picker/demo/index"
+  }
+}

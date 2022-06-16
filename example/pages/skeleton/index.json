@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Skeleton 骨架屏",
+  "usingComponents": {
+    "van-skeleton-demo": "../../dist/skeleton/demo/index"
+  }
+}

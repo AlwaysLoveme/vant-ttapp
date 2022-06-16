@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "ShareSheet 分享面板",
+  "usingComponents": {
+    "van-share-sheet-demo": "../../dist/share-sheet/demo/index"
+  }
+}

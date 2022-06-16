@@ -1,0 +1,7 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+<sjs src="./index.sjs" module="computed" />
+
+<view class="custom-class {{ utils.bem('tag', [type, size, { mark, plain, round }]) }}" style="{{ computed.rootStyle({ plain, color, textColor }) }}">
+  <slot />
+  <van-icon tt:if="{{ closeable }}" name="cross" custom-class="van-tag__close" bind:click="onClose" />
+</view>

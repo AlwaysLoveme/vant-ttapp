@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Panel 面板",
+  "usingComponents": {
+    "van-panel-demo": "../../dist/panel/demo/index"
+  }
+}

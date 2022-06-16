@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Divider 分割线",
+  "usingComponents": {
+    "van-divider-demo": "../../dist/divider/demo/index"
+  }
+}

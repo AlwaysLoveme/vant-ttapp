@@ -1,0 +1,12 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+
+<view tt:if="{{ loading }}" class="custom-class {{ utils.bem('skeleton', [{animate}]) }}">
+  <view tt:if="{{ avatar }}" class="avatar-class {{ utils.bem('skeleton__avatar', [avatarShape])}}" style="{{ 'width:' + avatarSize + ';height:' + avatarSize }}" />
+  <view class="{{ utils.bem('skeleton__content')}}">
+    <view tt:if="{{ title }}" class="title-class {{ utils.bem('skeleton__title') }}" style="{{ 'width:' + titleWidth }}" />
+    <view tt:for="{{ rowArray }}" tt:key="index" tt:for-index="index" class="row-class {{ utils.bem('skeleton__row') }}" style="{{ 'width:' + (isArray ? rowWidth[index] : rowWidth) }}" />
+  </view>
+</view>
+<view tt:else class="{{ utils.bem('skeleton__content')}}">
+  <slot />
+</view>

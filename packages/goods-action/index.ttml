@@ -1,0 +1,5 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+
+<view class="custom-class {{ utils.bem('goods-action', { safe: safeAreaInsetBottom }) }}">
+  <slot />
+</view>

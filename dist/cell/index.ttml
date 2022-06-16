@@ -1,0 +1,28 @@
+<sjs src="../wxs/utils.sjs" module="utils" />
+<sjs src="./index.sjs" module="computed" />
+
+<view class="custom-class {{ utils.bem('cell', [size, { center, required, borderless: !border, clickable: isLink || clickable }]) }}" hover-class="van-cell--hover hover-class" hover-stay-time="70" style="{{ customStyle }}" bind:tap="onClick">
+  <van-icon tt:if="{{ icon }}" name="{{ icon }}" class="van-cell__left-icon-wrap" custom-class="van-cell__left-icon" />
+  <slot tt:else name="icon" />
+
+  <view style="{{ computed.titleStyle({ titleWidth, titleStyle }) }}" class="van-cell__title title-class">
+
+    <block tt:if="{{ title }}">{{ title }}</block>
+    <slot tt:else name="title" />
+
+    <view tt:if="{{ label || useLabelSlot }}" class="van-cell__label label-class">
+      <slot tt:if="{{ useLabelSlot }}" name="label" />
+      <block tt:elif="{{ label }}">{{ label }}</block>
+    </view>
+  </view>
+
+  <view class="van-cell__value value-class">
+    <block tt:if="{{ value || value === 0 }}">{{ value }}</block>
+    <slot tt:else />
+  </view>
+
+  <van-icon tt:if="{{ isLink }}" name="{{ arrowDirection ? 'arrow' + '-' + arrowDirection : 'arrow' }}" class="van-cell__right-icon-wrap right-icon-class" custom-class="van-cell__right-icon" />
+  <slot tt:else name="right-icon" />
+
+  <slot name="extra" />
+</view>

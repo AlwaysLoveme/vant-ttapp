@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Picker 选择器",
+  "usingComponents": {
+    "van-picker-demo": "../../dist/picker/demo/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "NoticeBar 通知栏",
+  "usingComponents": {
+    "van-notice-bar-demo": "../../dist/notice-bar/demo/index"
+  }
+}

@@ -1,0 +1,4 @@
+@import "../../dist/overlay/index.ttss";
+:host {
+  font-size: 16px;
+}

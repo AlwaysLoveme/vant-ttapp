@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "ConfigProvider 全局配置",
+  "usingComponents": {
+    "van-config-provider-demo": "../../dist/config-provider/demo/index"
+  }
+}

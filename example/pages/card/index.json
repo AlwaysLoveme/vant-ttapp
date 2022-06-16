@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Card 商品卡片",
+  "usingComponents": {
+    "van-card-demo": "../../dist/card/demo/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "SwipeCell 滑动单元格",
+  "usingComponents": {
+    "van-swipe-cell-demo": "../../dist/swipe-cell/demo/index"
+  }
+}
