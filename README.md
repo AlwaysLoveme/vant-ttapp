@@ -7,7 +7,7 @@
   🔥 <a href="https://vant-contrib.gitee.io/vant-weapp">文档网站（国内）</a>
 </p>
 
-参照 `Vant-Weapp` 改造的适用于抖音小程序版本
+参照 `Vant-Weapp` 开发的适用于抖音原生小程序的UI组件库
 
 ### 目前暂无法使用的组件
 1. `radio`、  `radio-group`
