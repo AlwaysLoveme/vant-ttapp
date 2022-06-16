@@ -13,6 +13,11 @@
   "van-dialog": "@vant/weapp/dialog/index"
 }
 ```
+样式文件需要在使用页面引入
+
+```css
+@import '@vant/ttapp/dialog/index.ttss';
+```
 
 ## 代码演示
 

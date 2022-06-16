@@ -14,4 +14,4 @@ async function run() {
   p.stderr.on('data', (stderr) => console.info(stderr));
 }
 
-run();
+run().then();

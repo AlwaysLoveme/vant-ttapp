@@ -1,8 +1,8 @@
 <div class="van-doc-card">
   <div class="van-doc-intro">
     <img class="van-doc-intro__logo" style="width: 120px; height: 120px; box-shadow: none;" src="https://img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png">
-    <h2 style="margin: 0; font-size: 32px; line-height: 60px;">Vant Weapp</h2>
-    <p>轻量、可靠的小程序 UI 组件库</p>
+    <h2 style="margin: 0; font-size: 32px; line-height: 60px;">Vant Ttapp</h2>
+    <p>轻量、可靠的抖音小程序 UI 组件库</p>
   </div>
 </div>
 
@@ -26,29 +26,9 @@ Vant 是一个**轻量、可靠的移动端组件库**，于 2017 年开源。
 
 ### 链接
 
-- [意见反馈](https://github.com/youzan/vant-weapp/issues)
-- [设计资源](https://vant-contrib.gitee.io/vant/#/zh-CN/design)
-- [更新日志](https://vant-contrib.gitee.io/vant-weapp/#/changelog)
-- [官方示例](https://github.com/youzan/vant-demo)
+- [意见反馈](https://github.com/AlwaysLoveme/vant-ttapp/issues)
 
 ## 贡献
-
-### 核心团队
-
-以下是 Vant 和 Vant Weapp 的核心贡献者们：
-
-| [![chenjiahan](https://avatars.githubusercontent.com/u/7237365?s=80&v=4)](https://github.com/chenjiahan/) | [![cookfront](https://avatars.githubusercontent.com/u/4829465?s=80&v=4)](https://github.com/cookfront/) | [![w91](https://avatars.githubusercontent.com/u/2599455?s=80&v=4)](https://github.com/w91/) | [![pangxie1991](https://avatars.githubusercontent.com/u/5961240?s=80&v=4)](https://github.com/pangxie1991/) | [![rex-zsd](https://avatars.githubusercontent.com/u/8767877?s=80&v=4)](https://github.com/rex-zsd/) | [![nemo-shen](https://avatars.githubusercontent.com/u/13480805?s=80&v=4)](https://github.com/nemo-shen/) | [![Lindysen](https://avatars.githubusercontent.com/u/33708359?s=80&v=4)](https://github.com/Lindysen/) | [![nemo-shen](https://avatars.githubusercontent.com/u/16181940?s=80&v=4)](https://github.com/JakeLaoyu/) |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| [chenjiahan](https://github.com/chenjiahan/) | [cookfront](https://github.com/cookfront/) | [wangnaiyi](https://github.com/w91/) | [pangxie](https://github.com/pangxie1991/) | [rex-zsd](https://github.com/rex-zsd/) | [nemo-shen](https://github.com/nemo-shen/) | [Lindysen](https://github.com/Lindysen/) | [JakeLaoyu](https://github.com/JakeLaoyu/) |
-
-### 贡献者们
-
-感谢以下小伙伴们为 Vant Weapp 发展做出的贡献：
-
-<a href="https://github.com/youzan/vant-weapp/graphs/contributors">
-  <img src="https://opencollective.com/vant-weapp/contributors.svg?width=890&button=false" alt="contributors" style="width: 100%; margin: 16px 0">
-</a>
-
 ### 贡献代码
 
 使用过程中发现任何问题都可以提 [Issue](https://github.com/youzan/vant-weapp/issues) 给我们，当然，我们也非常欢迎你给我们发 [PR](https://github.com/youzan/vant-weapp/pulls)。
