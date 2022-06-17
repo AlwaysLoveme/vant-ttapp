@@ -1,0 +1,6 @@
+@import "../../dist/tabbar/index.ttss";
+@import "../../dist/tabbar-item/index.ttss";
+
+van-tabbar-item {
+  flex: 1;
+}

@@ -4,14 +4,14 @@ export { isDef } from './validator';
 export function range(num, min, max) {
     return Math.min(Math.max(num, min), max);
 }
-export function nextTick(cb) {
+export function nextTick(cb, time = 1000 / 30) {
     if (canIUseNextTick()) {
         tt.nextTick(cb);
     }
     else {
         setTimeout(() => {
             cb();
-        }, 1000 / 30);
+        }, time);
     }
 }
 let systemInfo;

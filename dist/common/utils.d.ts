@@ -2,7 +2,7 @@
 /// <reference types="node" />
 export { isDef } from './validator';
 export declare function range(num: number, min: number, max: number): number;
-export declare function nextTick(cb: (...args: any[]) => void): void;
+export declare function nextTick(cb: (...args: any[]) => void, time?: number): void;
 export declare function getSystemInfoSync(): WechatMiniprogram.SystemInfo;
 export declare function addUnit(value?: string | number): string | undefined;
 export declare function requestAnimationFrame(cb: () => void): NodeJS.Timeout | WechatMiniprogram.NodesRef;

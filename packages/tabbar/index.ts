@@ -49,8 +49,17 @@ VantComponent({
     height: 50,
   },
 
+  mounted() {},
+
   methods: {
     updateChildren() {
+      nextTick(() => {
+        const query = this.createSelectorQuery();
+        query.select('#tabbar');
+        query.exec((res) => {
+          console.log(res);
+        });
+      }, 1000);
       const { children } = this;
       if (!Array.isArray(children) || !children.length) {
         return;

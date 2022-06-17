@@ -1,7 +1,11 @@
 <sjs src="../wxs/utils.sjs" module="utils" />
 
-<view class="{{ border ? 'van-hairline--top-bottom' : '' }} {{ utils.bem('tabbar', { fixed, safe: safeAreaInsetBottom }) }} custom-class" style="{{ zIndex ? 'z-index: ' + zIndex : '' }}">
+<view class="tabbar {{ border ? 'van-hairline--top-bottom' : '' }} {{ utils.bem('tabbar', { fixed, safe: safeAreaInsetBottom }) }} custom-class" style="{{ zIndex ? 'z-index: ' + zIndex : '' }}">
   <slot />
+</view>
+
+<view id="tabbar">
+  <text>12312</text>
 </view>
 
 <view tt:if="{{ fixed && placeholder }}" style="height: {{ height }}px;"></view>

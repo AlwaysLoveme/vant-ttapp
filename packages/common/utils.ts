@@ -7,13 +7,13 @@ export function range(num: number, min: number, max: number) {
   return Math.min(Math.max(num, min), max);
 }
 
-export function nextTick(cb: (...args: any[]) => void) {
+export function nextTick(cb: (...args: any[]) => void, time = 1000 / 30) {
   if (canIUseNextTick()) {
     tt.nextTick(cb);
   } else {
     setTimeout(() => {
       cb();
-    }, 1000 / 30);
+    }, time);
   }
 }
 
